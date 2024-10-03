@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Entrega01_.srcs/sources_1/imports/Codigos/and_teste.vhd" \
+"../../../../Entrega01_.srcs/sources_1/new/driver_teste.vhd" \
+"../../../../Entrega01_.srcs/sources_1/new/flipflopD_teste.vhd" \
+"../../../../Entrega01_.srcs/sources_1/new/half_adder_teste.vhd" \
+"../../../../Entrega01_.srcs/sources_1/new/inverter_teste.vhd" \
+"../../../../Entrega01_.srcs/sources_1/new/latch_teste.vhd" \
+"../../../../Entrega01_.srcs/sources_1/new/nand_teste.vhd" \
+"../../../../Entrega01_.srcs/sources_1/new/nor_teste.vhd" \
+"../../../../Entrega01_.srcs/sources_1/imports/Codigos/or_teste.vhd" \
+"../../../../Entrega01_.srcs/sources_1/new/xnor_teste.vhd" \
+"../../../../Entrega01_.srcs/sources_1/new/xor_teste.vhd" \
+"../../../../Entrega01_.srcs/sources_1/new/Testbench.vhd" \
+
+# Do not sort compile order
+nosort

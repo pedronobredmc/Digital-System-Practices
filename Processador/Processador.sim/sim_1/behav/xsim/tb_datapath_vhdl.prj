@@ -1,0 +1,23 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Processador.srcs/sources_1/new/Inc.vhd" \
+"../../../../Processador.srcs/sources_1/new/Registrador.vhd" \
+"../../../../Processador.srcs/sources_1/new/Register_File.vhd" \
+"../../../../Processador.srcs/sources_1/new/controller_fsm.vhd" \
+"../../../../Processador.srcs/sources_1/new/control_unit.vhd" \
+"../../../../Processador.srcs/sources_1/new/ula.vhd" \
+"../../../../Processador.srcs/sources_1/new/mux_2x1.vhd" \
+"../../../../Processador.srcs/sources_1/new/mux_4x1.vhd" \
+"../../../../Processador.srcs/sources_1/new/datapath.vhd" \
+"../../../../Processador.srcs/sources_1/new/rom.vhd" \
+"../../../../Processador.srcs/sources_1/new/ram.vhd" \
+"../../../../Processador.srcs/sources_1/new/cpu.vhd" \
+"../../../../Processador.srcs/sim_1/new/tb_control_unit.vhd" \
+"../../../../Processador.srcs/sim_1/new/tb_cpu.vhd" \
+"../../../../Processador.srcs/sim_1/new/tb_datapath.vhd" \
+"../../../../Processador.srcs/sim_1/new/tb_rom.vhd" \
+"../../../../Processador.srcs/sim_1/new/tb_ula.vhd" \
+"../../../../Processador.srcs/sim_1/new/tb_ram.vhd" \
+
+# Do not sort compile order
+nosort

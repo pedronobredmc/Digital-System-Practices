@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../processador2.srcs/sources_1/new/constant_adder.vhd" \
+"../../../../processador2.srcs/sources_1/new/controller_fsm.vhd" \
+"../../../../processador2.srcs/sources_1/new/registrador.vhd" \
+"../../../../processador2.srcs/sources_1/new/mux_2x1.vhd" \
+"../../../../processador2.srcs/sources_1/new/control_unit.vhd" \
+"../../../../processador2.srcs/sources_1/new/rom.vhd" \
+"../../../../processador2.srcs/sim_1/new/tb_control_unit.vhd" \
+
+# Do not sort compile order
+nosort

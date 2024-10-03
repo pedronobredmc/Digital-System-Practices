@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/pedro/project_questao3/project_questao3.srcs/sources_1/new/FSM_MOORE_Y1_Y2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fsm_moore_y1_y2'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/pedro/project_questao3/project_questao3.srcs/sources_1/new/Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'testbench'

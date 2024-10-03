@@ -1,0 +1,302 @@
+
+*** Running vivado
+    with args -log testbench.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source testbench.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source testbench.tcl -notrace
+Command: synth_design -top testbench -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 15588
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1195.508 ; gain = 407.363
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-2551] possible infinite loop; process does not have a wait statement [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/flipflopD_teste.vhd:39]
+WARNING: [Synth 8-2551] possible infinite loop; process does not have a wait statement [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/testbench.vhd:187]
+INFO: [Synth 8-638] synthesizing module 'testbench' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/testbench.vhd:30]
+INFO: [Synth 8-3491] module 'and_teste' declared at 'D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/and_teste.vhd:9' bound to instance 'DUT1' of component 'and_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/testbench.vhd:141]
+INFO: [Synth 8-638] synthesizing module 'and_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/and_teste.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'and_teste' (0#1) [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/and_teste.vhd:18]
+INFO: [Synth 8-3491] module 'or_teste' declared at 'D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/or_teste.vhd:9' bound to instance 'DUT2' of component 'or_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/testbench.vhd:142]
+INFO: [Synth 8-638] synthesizing module 'or_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/or_teste.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'or_teste' (0#1) [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/or_teste.vhd:17]
+INFO: [Synth 8-3491] module 'xor_teste' declared at 'D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/xor_teste.vhd:9' bound to instance 'DUT3' of component 'xor_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/testbench.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'xor_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/xor_teste.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'xor_teste' (0#1) [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/xor_teste.vhd:18]
+INFO: [Synth 8-3491] module 'inverter_teste' declared at 'D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/inverter_teste.vhd:9' bound to instance 'DUT4' of component 'inverter_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/testbench.vhd:144]
+INFO: [Synth 8-638] synthesizing module 'inverter_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/inverter_teste.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'inverter_teste' (0#1) [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/inverter_teste.vhd:17]
+INFO: [Synth 8-3491] module 'nor_teste' declared at 'D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/nor_teste.vhd:9' bound to instance 'DUT5' of component 'nor_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/testbench.vhd:145]
+INFO: [Synth 8-638] synthesizing module 'nor_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/nor_teste.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'nor_teste' (0#1) [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/nor_teste.vhd:18]
+INFO: [Synth 8-3491] module 'nand_teste' declared at 'D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/nand_teste.vhd:9' bound to instance 'DUT6' of component 'nand_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/testbench.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'nand_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/nand_teste.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'nand_teste' (0#1) [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/nand_teste.vhd:18]
+INFO: [Synth 8-3491] module 'xnor_teste' declared at 'D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/xnor_teste.vhd:9' bound to instance 'DUT7' of component 'xnor_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/testbench.vhd:147]
+INFO: [Synth 8-638] synthesizing module 'xnor_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/xnor_teste.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'xnor_teste' (0#1) [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/xnor_teste.vhd:18]
+INFO: [Synth 8-3491] module 'latch_teste' declared at 'D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/latch_teste.vhd:9' bound to instance 'DUT8' of component 'latch_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/testbench.vhd:148]
+INFO: [Synth 8-638] synthesizing module 'latch_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/latch_teste.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'latch_teste' (0#1) [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/latch_teste.vhd:19]
+WARNING: [Synth 8-5640] Port 'xbar' is missing in component declaration [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/testbench.vhd:95]
+INFO: [Synth 8-3491] module 'flipflopD_teste' declared at 'D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/flipflopD_teste.vhd:9' bound to instance 'DUT9' of component 'flipflopD_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/testbench.vhd:149]
+INFO: [Synth 8-638] synthesizing module 'flipflopD_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/flipflopD_teste.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'flipflopD_teste' (0#1) [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/flipflopD_teste.vhd:18]
+INFO: [Synth 8-3491] module 'half_adder_teste' declared at 'D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/half_adder_teste.vhd:9' bound to instance 'DUT10' of component 'half_adder_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/testbench.vhd:150]
+INFO: [Synth 8-638] synthesizing module 'half_adder_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/half_adder_teste.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'half_adder_teste' (0#1) [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/half_adder_teste.vhd:19]
+INFO: [Synth 8-3491] module 'driver_teste' declared at 'D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/driver_teste.vhd:8' bound to instance 'DUT11' of component 'driver_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/testbench.vhd:151]
+INFO: [Synth 8-638] synthesizing module 'driver_teste' [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/driver_teste.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'driver_teste' (0#1) [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/driver_teste.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'testbench' (0#1) [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/testbench.vhd:30]
+WARNING: [Synth 8-6014] Unused sequential element q_reg was removed.  [D:/Users/pedro/project_teste/project_teste.srcs/sources_1/new/latch_teste.vhd:34]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1285.312 ; gain = 497.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1285.312 ; gain = 497.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1285.312 ; gain = 497.168
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1285.312 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'VGA_R[0]'. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:136]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:136]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_R[1]'. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:137]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:137]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_R[2]'. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:138]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:138]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_R[3]'. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:139]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:139]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_R[4]'. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:140]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:140]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[0]'. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:141]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:141]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[1]'. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:142]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:142]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[2]'. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:143]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:143]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[3]'. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:144]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:144]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[4]'. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:145]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:145]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[5]'. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:146]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:146]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_B[0]'. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:147]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:147]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_B[1]'. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:148]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:148]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_B[2]'. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:149]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:149]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_B[3]'. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:150]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:150]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_B[4]'. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:151]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:151]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_HS_O'. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:152]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:152]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_VS_O'. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:153]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc:153]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Users/pedro/project_teste/project_teste.srcs/constrs_1/new/Zybo_master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/testbench_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/testbench_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1328.426 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 1328.426 ; gain = 0.000
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1328.426 ; gain = 540.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1328.426 ; gain = 540.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1328.426 ; gain = 540.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1328.426 ; gain = 540.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                1 Bit    Registers := 13    
++---Muxes : 
+	   2 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (i_0) is unused and will be removed from module testbench.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1328.426 ; gain = 540.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1328.426 ; gain = 540.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1328.426 ; gain = 540.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1328.426 ; gain = 540.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1328.426 ; gain = 540.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1328.426 ; gain = 540.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1328.426 ; gain = 540.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1328.426 ; gain = 540.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1328.426 ; gain = 540.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1328.426 ; gain = 540.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT6 |     1|
+|2     |IBUF |     6|
+|3     |OBUF |     1|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1328.426 ; gain = 540.281
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 1328.426 ; gain = 497.168
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 1328.426 ; gain = 540.281
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1330.355 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1336.004 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 8eff105a
+INFO: [Common 17-83] Releasing license: Synthesis
+50 Infos, 24 Warnings, 18 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:37 . Memory (MB): peak = 1336.004 ; gain = 951.246
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'D:/Users/pedro/project_teste/project_teste.runs/synth_1/testbench.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file testbench_utilization_synth.rpt -pb testbench_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 20 13:58:52 2024...

@@ -1,0 +1,20 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/Users/pedro/processador2/processador2.srcs/sim_1/new/tb_control_unit.vhd,1727281001,vhdl,,,,tb_control_unit,,,,,,,,
+D:/Users/pedro/processador2/processador2.srcs/sim_1/new/tb_cpu.vhd,1727299419,vhdl,,,,cpu_testbench,,,,,,,,
+D:/Users/pedro/processador2/processador2.srcs/sim_1/new/tb_datapath.vhd,1727292155,vhdl,,,,datapath_tb,,,,,,,,
+D:/Users/pedro/processador2/processador2.srcs/sources_1/new/constant_adder.vhd,1727404407,vhdl,D:/Users/pedro/processador2/processador2.srcs/sources_1/new/control_unit.vhd,,,constant_adder,,,,,,,,
+D:/Users/pedro/processador2/processador2.srcs/sources_1/new/control_unit.vhd,1727404454,vhdl,D:/Users/pedro/processador2/processador2.srcs/sources_1/new/cpu.vhd,,,control_unit,,,,,,,,
+D:/Users/pedro/processador2/processador2.srcs/sources_1/new/controller_fsm.vhd,1727407449,vhdl,D:/Users/pedro/processador2/processador2.srcs/sources_1/new/control_unit.vhd,,,controller_fsm,,,,,,,,
+D:/Users/pedro/processador2/processador2.srcs/sources_1/new/cpu.vhd,1727408075,vhdl,D:/Users/pedro/processador2/processador2.srcs/sim_1/new/tb_cpu.vhd,,,cpu,,,,,,,,
+D:/Users/pedro/processador2/processador2.srcs/sources_1/new/datapath.vhd,1727299101,vhdl,D:/Users/pedro/processador2/processador2.srcs/sources_1/new/cpu.vhd,,,datapath,,,,,,,,
+D:/Users/pedro/processador2/processador2.srcs/sources_1/new/e_s.vhd,1727280180,vhdl,D:/Users/pedro/processador2/processador2.srcs/sources_1/new/cpu.vhd,,,e_s,,,,,,,,
+D:/Users/pedro/processador2/processador2.srcs/sources_1/new/mux_2x1.vhd,1727407516,vhdl,D:/Users/pedro/processador2/processador2.srcs/sources_1/new/control_unit.vhd,,,mux_2x1,,,,,,,,
+D:/Users/pedro/processador2/processador2.srcs/sources_1/new/pilha.vhd,1727280037,vhdl,D:/Users/pedro/processador2/processador2.srcs/sources_1/new/datapath.vhd,,,pilha,,,,,,,,
+D:/Users/pedro/processador2/processador2.srcs/sources_1/new/ram.vhd,1727298239,vhdl,D:/Users/pedro/processador2/processador2.srcs/sources_1/new/cpu.vhd,,,ram,,,,,,,,
+D:/Users/pedro/processador2/processador2.srcs/sources_1/new/register_file.vhd,1727280054,vhdl,D:/Users/pedro/processador2/processador2.srcs/sources_1/new/datapath.vhd,,,register_file,,,,,,,,
+D:/Users/pedro/processador2/processador2.srcs/sources_1/new/registrador.vhd,1727280070,vhdl,D:/Users/pedro/processador2/processador2.srcs/sources_1/new/control_unit.vhd,,,registrador,,,,,,,,
+D:/Users/pedro/processador2/processador2.srcs/sources_1/new/rom.vhd,1727297946,vhdl,D:/Users/pedro/processador2/processador2.srcs/sources_1/new/cpu.vhd,,,rom,,,,,,,,
+D:/Users/pedro/processador2/processador2.srcs/sources_1/new/ula.vhd,1727291893,vhdl,D:/Users/pedro/processador2/processador2.srcs/sources_1/new/datapath.vhd,,,ula,,,,,,,,

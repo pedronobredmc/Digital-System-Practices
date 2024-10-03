@@ -1,0 +1,25 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot testbench_behav xil_defaultlib.testbench -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture rtl1 of entity xil_defaultlib.and_teste [and_teste_default]
+Compiling architecture rtl2 of entity xil_defaultlib.or_teste [or_teste_default]
+Compiling architecture rtl3 of entity xil_defaultlib.xor_teste [xor_teste_default]
+Compiling architecture rtl4 of entity xil_defaultlib.inverter_teste [inverter_teste_default]
+Compiling architecture rtl5 of entity xil_defaultlib.nor_teste [nor_teste_default]
+Compiling architecture rtl6 of entity xil_defaultlib.nand_teste [nand_teste_default]
+Compiling architecture rtl7 of entity xil_defaultlib.xnor_teste [xnor_teste_default]
+Compiling architecture rtl8 of entity xil_defaultlib.latch_teste [latch_teste_default]
+Compiling architecture rtl9 of entity xil_defaultlib.flipflopD_teste [flipflopd_teste_default]
+Compiling architecture rtl10 of entity xil_defaultlib.half_adder_teste [half_adder_teste_default]
+Compiling architecture rtl11 of entity xil_defaultlib.driver_teste [driver_teste_default]
+Compiling architecture behavioral of entity xil_defaultlib.testbench
+Built simulation snapshot testbench_behav

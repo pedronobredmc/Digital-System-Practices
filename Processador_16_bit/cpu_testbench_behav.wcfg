@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cpu_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cpu_testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="4,400.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="143"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/cpu_testbench/DUT/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/ROM_addr" type="array">
+      <obj_property name="ElementShortName">ROM_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/ROM_dout" type="array">
+      <obj_property name="ElementShortName">ROM_dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM_dout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/ROM_en" type="logic">
+      <obj_property name="ElementShortName">ROM_en</obj_property>
+      <obj_property name="ObjectShortName">ROM_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/RAM_din" type="array">
+      <obj_property name="ElementShortName">RAM_din[15:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_din[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/RAM_dout" type="array">
+      <obj_property name="ElementShortName">RAM_dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_dout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/RAM_addr" type="array">
+      <obj_property name="ElementShortName">RAM_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/RAM_we" type="logic">
+      <obj_property name="ElementShortName">RAM_we</obj_property>
+      <obj_property name="ObjectShortName">RAM_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/Immed" type="array">
+      <obj_property name="ElementShortName">Immed[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Immed[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/RAM_sel" type="logic">
+      <obj_property name="ElementShortName">RAM_sel</obj_property>
+      <obj_property name="ObjectShortName">RAM_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/RF_sel" type="array">
+      <obj_property name="ElementShortName">RF_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RF_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/Rd_sel" type="array">
+      <obj_property name="ElementShortName">Rd_sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd_sel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/Rd_wr" type="logic">
+      <obj_property name="ElementShortName">Rd_wr</obj_property>
+      <obj_property name="ObjectShortName">Rd_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/Rm_sel" type="array">
+      <obj_property name="ElementShortName">Rm_sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Rm_sel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/Rn_sel" type="array">
+      <obj_property name="ElementShortName">Rn_sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Rn_sel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/ula_op" type="array">
+      <obj_property name="ElementShortName">ula_op[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ula_op[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/Z" type="logic">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/C" type="logic">
+      <obj_property name="ElementShortName">C</obj_property>
+      <obj_property name="ObjectShortName">C</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/stack_en" type="logic">
+      <obj_property name="ElementShortName">stack_en</obj_property>
+      <obj_property name="ObjectShortName">stack_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/stack_op" type="array">
+      <obj_property name="ElementShortName">stack_op[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stack_op[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/immed_en" type="logic">
+      <obj_property name="ElementShortName">immed_en</obj_property>
+      <obj_property name="ObjectShortName">immed_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/IO_en" type="logic">
+      <obj_property name="ElementShortName">IO_en</obj_property>
+      <obj_property name="ObjectShortName">IO_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/IO_sel" type="logic">
+      <obj_property name="ElementShortName">IO_sel</obj_property>
+      <obj_property name="ObjectShortName">IO_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/IO_dout" type="array">
+      <obj_property name="ElementShortName">IO_dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_dout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/DUT/N" type="other">
+      <obj_property name="ElementShortName">N</obj_property>
+      <obj_property name="ObjectShortName">N</obj_property>
+   </wvobject>
+</wave_config>

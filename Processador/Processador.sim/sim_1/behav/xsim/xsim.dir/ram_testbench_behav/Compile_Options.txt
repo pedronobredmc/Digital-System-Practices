@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "ram_testbench_behav" "xil_defaultlib.ram_testbench" -log "elaborate.log" 

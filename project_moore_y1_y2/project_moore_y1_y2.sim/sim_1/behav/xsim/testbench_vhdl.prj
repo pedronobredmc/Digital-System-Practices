@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_moore_y1_y2.srcs/sources_1/new/FSM_MOORE_Y1_Y2.vhd" \
+"../../../../project_moore_y1_y2.srcs/sources_1/new/Testbench.vhd" \
+
+# Do not sort compile order
+nosort

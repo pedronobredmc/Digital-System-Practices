@@ -1,0 +1,29 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot cpu_testbench_behav xil_defaultlib.cpu_testbench -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'z' [D:/Users/pedro/Processador_16_bit/Processador_16_bit.srcs/sources_1/new/control_unit.vhd:39]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ULA [ula_default]
+Compiling architecture behavioral of entity xil_defaultlib.registrador [registrador_default]
+Compiling architecture behavioral of entity xil_defaultlib.register_file [register_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.SP [sp_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture behavioral of entity xil_defaultlib.fsm [fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.registrador [\registrador(n=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.control_unit [control_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.rom [rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.ram [ram_default]
+Compiling architecture behavioral of entity xil_defaultlib.cpu [cpu_default]
+Compiling architecture behavioral of entity xil_defaultlib.cpu_testbench
+Built simulation snapshot cpu_testbench_behav

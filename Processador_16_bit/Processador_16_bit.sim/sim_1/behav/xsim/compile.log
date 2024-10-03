@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/pedro/Processador_16_bit/Processador_16_bit.srcs/sources_1/new/rom.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'rom'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/pedro/Processador_16_bit/Processador_16_bit.srcs/sources_1/new/cpu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cpu'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/pedro/Processador_16_bit/Processador_16_bit.srcs/sim_1/new/tb_cpu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cpu_testbench'
